@@ -8,7 +8,7 @@
 
 [HTML](#HTML)
 * [语法](#语法)
-* [HTML5 doctype](#HTML5 doctype)
+* [HTML5 doctype](#HTML5-doctype)
 * [lang 属性](#lang 属性)
 * [字符编码](#字符编码)
 * [IE 兼容模式](#IE 兼容模式)
@@ -63,6 +63,7 @@ Redux目录名：reducers
 ```
 
 #### HTML5 doctype
+<h3 id="HTML5-doctype">HTML5 doctype</h3>
 
 在页面开头使用这个简单的 doctype 来启用标准模式，使其在每个浏览器中尽可能一致的展现
 
