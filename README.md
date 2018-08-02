@@ -10,7 +10,7 @@
 * [语法](#语法)
 * [HTML5 doctype](#html5-doctype)
 * [lang 属性](#html-lang)
-* [字符编码](#html-character)
+* [字符编码](#字符编码)
 * [IE 兼容模式](#html-ie)
 * [引入 CSS、JS](#html-css-js)
 * [boolean 属性](#html-boolean)
@@ -18,12 +18,22 @@
 * [实用高于完美](#实用高于完美)
 
 [CSS](#CSS)
-* [语法](#语法)
+* [语法](#css-syntax)
 * [Class命名](#Class命名)
 * [声明顺序](#声明顺序)
 
 [JavaScript](#JavaScript)
-
+* [缩进](#缩进)
+* [空格](#空格)
+* [空行](#空行)
+* [换行](#换行)
+* [注释](#注释)
+* [引号](#引号)
+* [命名](#命名)
+* [变量声明](#变量声明)
+* [对象](#对象)
+* [大括号](#大括号)
+* [其他](#其他)
 
 ### 命名规则
 #### 项目命名
@@ -62,7 +72,6 @@ Redux目录名：reducers
 </body>
 ```
 
-#### HTML5 doctype
 <h4 id="HTML5-doctype">HTML5 doctype</h4>
 
 在页面开头使用这个简单的 doctype 来启用标准模式，使其在每个浏览器中尽可能一致的展现
@@ -74,7 +83,7 @@ Redux目录名：reducers
 <!DOCTYPE html>
 ```
 
-#### lang 属性
+<h4 id="html-lang">lang 属性</h4>
 
 根据HTML5规范：
 
@@ -103,7 +112,7 @@ Redux目录名：reducers
 </html>
 ```
 
-#### IE 兼容模式
+<h4 id="html-ie">IE 兼容模式</h4>
 
 用 `<meta>` 标签可以指定页面应该用什么版本的 IE 来渲染，PC 端项目，建议启用 IE Edge 模式
 
@@ -116,7 +125,7 @@ Redux目录名：reducers
 </html>
 ```
 
-#### 引入 CSS、JS
+<h4 id="html-css-js">引入 CSS、JS</h4>
 
 * 根据 HTML5 规范, 通常在引入 CSS 和 JS 时不需要指明 `type`，因为 `text/css` 和 `text/javascript` 分别是他们的默认值
 
@@ -135,7 +144,7 @@ Redux目录名：reducers
 </html>
 ```
 
-#### boolean 属性
+<h4 id="html-boolean">boolean 属性</h4>
 
 boolean 属性指不需要声明取值的属性，XHTML 需要每个属性声明取值，但是 HTML5 并不需要
 
@@ -171,7 +180,8 @@ boolean 属性指不需要声明取值的属性，XHTML 需要每个属性声明
 
 
 ### CSS
-#### 语法
+<h4 id="css-syntax">语法</h4>
+
 * 使用 4 个空格作为一个缩进层级，不允许使用 2 个空格或 tab 字符。
 * 为了代码的易读性，在每个声明的左括号前增加一个空格。
 * { 后需要换行，} 前需要换行
@@ -330,7 +340,7 @@ function TextNode(options) {
 let $body = $('body');
 ```
 
-## 变量声明
+#### 变量声明
 
 * 变量在使用前必须通过 `var / let / const` 定义
 
