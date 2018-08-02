@@ -8,12 +8,12 @@
 
 [HTML](#HTML)
 * [语法](#语法)
-* [HTML5 doctype](#HTML5-doctype)
-* [lang 属性](#lang 属性)
-* [字符编码](#字符编码)
-* [IE 兼容模式](#IE 兼容模式)
-* [引入 CSS、JS](#引入 CSS、JS)
-* [boolean 属性](#boolean 属性)
+* [HTML5 doctype](#html5-doctype)
+* [lang 属性](#html-lang)
+* [字符编码](#html-character)
+* [IE 兼容模式](#html-ie)
+* [引入 CSS、JS](#html-css-js)
+* [boolean 属性](#html-boolean)
 * [减少标签数量](#减少标签数量)
 * [实用高于完美](#实用高于完美)
 
@@ -63,7 +63,7 @@ Redux目录名：reducers
 ```
 
 #### HTML5 doctype
-<h3 id="HTML5-doctype">HTML5 doctype</h3>
+<h4 id="HTML5-doctype">HTML5 doctype</h4>
 
 在页面开头使用这个简单的 doctype 来启用标准模式，使其在每个浏览器中尽可能一致的展现
 
