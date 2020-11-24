@@ -64,3 +64,6 @@ Closes #234
 // or
 Closes #123, #245, #992
 ```
+
+### 示例
+![示例](https://github.com/yh-yunchuang-fe/yh-style-guide/blob/master/imgs/gitmessagedemo.jpg)
